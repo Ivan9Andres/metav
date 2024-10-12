@@ -1,0 +1,197 @@
+.container-fluid {
+    background-color: black;
+    color: white;
+    background-image: url(../img/morados.png);
+    background-size: 100%;
+
+}
+
+.fuente {
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+img {
+    width: 100%;
+}
+
+.barra {
+    align-items: center;
+    align-content: center;
+    padding: 42px;
+
+}
+
+.barra .carta1 {
+    font-size: 30px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin: 0%;
+}
+
+.menu2 {
+    display: block;
+    display: none;
+}
+
+.seccion1 {
+    margin-top: 50px;
+
+}
+.seccion1 .foto{
+    width: 89%;
+}
+
+.seccion1 .carpeta11 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+}
+
+.carpeta11 span {
+    color: #D10ED1 12.04%, #10A3DA 81.84%;
+
+}
+
+.seccion1 .textos {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.seccion1 .botones1 {
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+}
+
+.seccion1 .boton1 {
+    background: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
+    width: fit-content;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.seccion1 .boton2 {
+    border: 1px solid#10A3DA;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.seccion1 .carpeta12 {
+    position: relative;
+}
+
+.seccion1 .carpeta12 .foto {
+    -webkit-mask-image: -o-linear-gradient(to top, transparent 1%, black)
+}
+
+.seccion1 .carpeta12 .vec {
+    position: absolute;
+    top: 157px;
+}
+
+.seccion2 {
+    padding: 0px 100px;
+}
+
+.seccion2 .carta22 {
+    align-content: center;
+}
+
+.seccion2 .carta22 .boton21 {
+    background: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
+    width: fit-content;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+span {
+    background-image: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
+    -webkit-text-fill-color: #0000;
+    -webkit-background-clip: text;
+}
+
+.seccion3 {
+    padding-top: 70px;
+    
+}
+.seccion3 .carpeta31{
+gap: 20px;
+justify-content: center;
+}
+
+.seccion3 .titulo3 {
+    text-align: center;
+}
+
+.seccion3 img {
+    width: 300px;
+}
+
+
+
+.seccion3 .carta32 {
+    border: 1px solid;
+    width: fit-content;
+    background-color: #090823;
+    border: none;
+    padding-top: 30px;
+    border-radius: 0px 22px 0px 22px;
+}
+
+
+
+.seccion3 h4 {
+    padding-top: 20px;
+}
+
+.seccion3 .botones3 {
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+    padding-bottom: 40px;
+}
+
+.seccion3 .boton31 {
+    background: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px 25px 5px 25px;
+}
+.seccion3 .boton32{
+    border: 1px solid#10A3DA;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px 25px 5px 25px;
+}
+.seccion4 {
+    padding: 0px 100px;
+}
+.seccion4 .titulos4{
+    text-align: center;
+}
+.final{
+    background-color: #090823;
+    color: white;
+    padding: 14px 0px 0px 0px;
+}
+.final .carta52{
+    display: flex;
+    gap: 20px;
+}
+ul{
+    list-style: none;
+}
+.final .contactos{
+    width: 100px;
+    display: flex;
+}
+.final .metau{
+    margin-top: 20px;
+}

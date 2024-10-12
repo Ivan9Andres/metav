@@ -1,0 +1,69 @@
+@media (max-width: 600px){
+    .barra .menu{
+        display: none;
+    }
+    .barra .menu2{
+        display: block;
+        width: 50px;
+    }
+    .carpeta12 .vec{
+        display: none;
+    }
+    .seccion1{
+        flex-direction: column-reverse;
+        display: flex;
+        position: relative;
+        
+    }
+    .seccion1 .carpeta11{
+       text-align: center;
+       
+    }
+    .seccion1 .botones1{
+        justify-content: center;
+    }
+    .seccion1 .carpeta12 .foto{
+        width: 100%;
+    }
+    .seccion1 .texto1{
+        position: absolute;
+        top: 17%;
+    }
+    .seccion1 .texto2{
+        position: absolute;
+        top: -6%;
+        left: 26%;
+    }
+    .seccion1 .texto3{
+        position: absolute;
+        top: 0%;
+        left: 69%;
+    }
+
+    .seccion2{
+        flex-direction: column;
+    }
+    .seccion3 .carpeta31{
+        
+    }
+
+
+    .seccion4{
+        padding: 0%;
+    }
+    .seccion4 .carta41{
+        display: none;
+    }
+    .seccion4 .botones4{
+        display: flex;
+        gap: 210px;
+        align-items: baseline;
+    }
+    .seccion4 .boton4{
+        width: 54px;
+        border: 1px solid white;
+        border-radius: 33px;
+        padding: 10px;
+        background-color: #3E3E3E;
+    }
+}
